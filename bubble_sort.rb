@@ -17,6 +17,8 @@ def bubble_sort_by(arr)
 flag_sort=false
 until flag_sort
   flag_sort=true
+  arr.each_with_index do |value_1, index|
+  end
 end
 
 end

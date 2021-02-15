@@ -12,7 +12,6 @@ The project is done as part of microverse main curriculum from the Ruby Section.
 
 ## Live Demo
 
-[Live Demo Link]()
 
 ## Authors
 

@@ -1,3 +1,4 @@
+#Bubble Sor for sorting integers
 def bubble_sort(array)
   index = 0
   while index < array.size - 1
@@ -9,6 +10,11 @@ def bubble_sort(array)
     end
   end
   puts array
+end
+
+#Bubble Sor for sorting strings with the help of yield keyword
+def bubble_sort_by()
+
 end
 
 array = [4, 3, 78, 2, 0, 2]

@@ -23,10 +23,17 @@ until flag_sort
     comp= yield(value_1, value_2)
     if comp > 0
       arr[index], arr[index + 1]= value_2, value_1
+      flag_sort=false
   end
 end
-
+end
+puts "Sorted Array = #{arr}"
 end
 
 array = [4, 3, 78, 2, 0, 2]
 puts bubble_sort array
+
+bubble_sort_by(["hi","hel0l","hey", "kkt", "l"]) do |left,right|
+  left.length <=> right.length
+  #left.length - right.length
+end

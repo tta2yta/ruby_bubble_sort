@@ -13,7 +13,11 @@ def bubble_sort(array)
 end
 
 #Bubble Sor for sorting strings with the help of yield keyword
-def bubble_sort_by()
+def bubble_sort_by(arr)
+flag_sort=false
+until flag_sort
+  flag_sort=true
+end
 
 end
 

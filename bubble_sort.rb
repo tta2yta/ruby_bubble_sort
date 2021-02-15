@@ -18,6 +18,11 @@ flag_sort=false
 until flag_sort
   flag_sort=true
   arr.each_with_index do |value_1, index|
+    break if index == arr.size - 1
+    value_2= arr[index + 1]
+    comp= yield(value_1, value_2)
+    if comp > 0
+      arr[index], arr[index + 1]= value_2, value_1
   end
 end
 
